@@ -1,0 +1,6 @@
+INPUT a b c d
+OUTPUT d1 d2 d3 d4
+OR or1 a c
+AND and1 or1 b
+FLIPFLOP f1 and1
+DECODER d1 d2 d3 d4 f1 or1
